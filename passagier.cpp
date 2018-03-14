@@ -37,6 +37,9 @@ vector<string> Passagier::neueXMLerstellen() {
 }
 
 
+//Ausgeben-Funktion für Suchergebnisse
+
+
 string bringeAttributWert(string attributName, string &zeile) {
    int zeiger = zeile.find(attributName)+attributName.length();
    char puffer = '\0';
