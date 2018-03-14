@@ -1,0 +1,242 @@
+<flugdaten>
+ <passagier reihe:sitz="33B">
+ <passagierName>
+ <nachname>Schmitz</nachname>
+ <vorname>Miriam</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>16</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="74A">
+ <passagierName>
+ <nachname>Shelby</nachname>
+ <vorname>Thomas</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>23</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="09B">
+ <passagierName>
+ <nachname>McKenzie</nachname>
+ <vorname>Jonathan</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>5</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="54C">
+ <passagierName>
+ <nachname>Todd</nachname>
+ <vorname>Sweeny</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>3</stueckzahl>
+ <gesamtgewicht>35</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="62A">
+ <passagierName>
+ <nachname>Limberger</nachname>
+ <vorname>Kristina</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>25</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="89B">
+ <passagierName>
+ <nachname>Alarslan</nachname>
+ <vorname>Selda</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>40</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="14C">
+ <passagierName>
+ <nachname>Oasim</nachname>
+ <vorname>Dschamila</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>15</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="99A">
+ <passagierName>
+ <nachname>Wolf</nachname>
+ <vorname>Herbert</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>3</stueckzahl>
+ <gesamtgewicht>42</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="42C">
+ <passagierName>
+ <nachname>Sharma</nachname>
+ <vorname>Neeraj</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>20</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="21B">
+ <passagierName>
+ <nachname>Iwanow</nachname>
+ <vorname>Vitali</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>37</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="66C">
+ <passagierName>
+ <nachname>Coutaux</nachname>
+ <vorname>Olivier</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>11</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="95B">
+ <passagierName>
+ <nachname>Wikstrom</nachname>
+ <vorname>Hans</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>3</stueckzahl>
+ <gesamtgewicht>50</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="27A">
+ <passagierName>
+ <nachname>Raabe</nachname>
+ <vorname>Annelise</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>21</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="39A">
+ <passagierName>
+ <nachname>Dobleman</nachname>
+ <vorname>Paul</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>29</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="44C">
+ <passagierName>
+ <nachname>Kowalska</nachname>
+ <vorname>Dana</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>33</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="17B">
+ <passagierName>
+ <nachname>Cooper</nachname>
+ <vorname>Michael</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>47</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="57A">
+ <passagierName>
+ <nachname>Cortez</nachname>
+ <vorname>Estevania</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>19</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="78B">
+ <passagierName>
+ <nachname>DaSilva</nachname>
+ <vorname>Talitha</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>33</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="05C">
+ <passagierName>
+ <nachname>Escobar</nachname>
+ <vorname>Miguel</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>13</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="23A">
+ <passagierName>
+ <nachname>Macron</nachname>
+ <vorname>Annabelle</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>2</stueckzahl>
+ <gesamtgewicht>29</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="23B">
+ <passagierName>
+ <nachname>Macron</nachname>
+ <vorname>Jaque</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>20</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="69B">
+ <passagierName>
+ <nachname>Vu</nachname>
+ <vorname>Minha</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>3</stueckzahl>
+ <gesamtgewicht>37</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="49A">
+ <passagierName>
+ <nachname>Jones</nachname>
+ <vorname>Steen</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>15</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="31C">
+ <passagierName>
+ <nachname>Tsingtao</nachname>
+ <vorname>Park</vorname>
+ </passagierName>
+ <passagierGepaeck>
+ <stueckzahl>1</stueckzahl>
+ <gesamtgewicht>26</gesamtgewicht>
+ </passagierGepaeck>
+ </passagier>
+</flugdaten>

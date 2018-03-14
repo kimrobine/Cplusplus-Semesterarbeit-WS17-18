@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+
 class Passagier {
 
 public:
@@ -18,6 +19,7 @@ public:
     string Nationalitaet;
     Passagier (string PassagierDatenXML[10]);
     vector<string> neueXMLerstellen();
+    //Ausgeben-Funktion
 
 };
 
