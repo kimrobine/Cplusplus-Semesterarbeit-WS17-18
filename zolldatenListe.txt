@@ -1,7 +1,7 @@
 33B;deutsch
 74A;englisch
 09B;suedafrikanisch
-54C;englisch
+54C;norwegisch
 62A;oesterreichisch
 89B;tuerkisch
 14C;arabisch

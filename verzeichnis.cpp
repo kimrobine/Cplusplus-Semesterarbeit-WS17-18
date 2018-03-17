@@ -47,17 +47,74 @@ void Verzeichnis::auslesenTXT() {
     for(string zeile; getline(datei, zeile);) {
 
         /* mit Hilfe des strings passagierSitz soll jede Zeile bis zum Semikolon
-         * (nach der verbindenden Sitznummer und vor der Nationalität) durchsucht werden */
+         * durchsucht werden, um so die Angabe zur Nationalität finden und zuordnen zu können */
 
         string passagierSitz = zeile.substr(0,zeile.find(';'));
 
         //Aufruf der Suche-Funktion, um Nationalität aus TXT rauszusuchen & zu speichern
+        Passagier *ergebnis = Suche(Sitzplatz,passagierSitz);
+
+                if (ergebnis != NULL) {
+                    ergebnis->Nationalitaet = zeile.substr(zeile.find(';') +1);
+                }
+                else {
+                    cout << "Fehler" << endl;
+                }
     }
 }
 
 
-//Suche-Funktion
+/* Funktion, um Datenbasis kategoriespezifisch nach Passagierinformationen zu durchsuchen */
+Passagier * Verzeichnis::Suche(Kategorie kategorie, string suchBegriff) {
+    // For-Schleife, um Verzeichnis durchgehen zu können
+    for(auto i = 0u; i < datenIndex.size(); i++) {
+        Passagier uebergangsPassagier = datenIndex.at(i);
 
+        //Switch-Case, um die im Menü auswählbaren Kategorien mit der Suche zu verknüpfen
+        //und entsprechend gefundene Daten zurückzugeben
+        switch(kategorie) {
+
+        case Sitzplatz:
+            if (uebergangsPassagier.Sitzplatz.compare(suchBegriff) == 0) {
+                return &datenIndex.at(i);
+            }
+
+            break;
+
+        case Nachname:
+            if (uebergangsPassagier.Nachname.compare(suchBegriff) == 0) {
+                return &datenIndex.at(i);
+            }
+            break;
+
+        case Vorname:
+            if (uebergangsPassagier.Vorname.compare(suchBegriff) == 0) {
+                return &datenIndex.at(i);
+            }
+            break;
+
+        case GepaeckStueckzahl:
+            if (uebergangsPassagier.GepaeckStueckzahl.compare(suchBegriff) == 0) {
+                return &datenIndex.at(i);
+            }
+            break;
+
+        case GepaeckGesamtgewicht:
+            if (uebergangsPassagier.GepaeckGesamtgewicht.compare(suchBegriff) == 0) {
+                return &datenIndex.at(i);
+            }
+            break;
+
+        case Nationalitaet:
+            if (uebergangsPassagier.Nationalitaet.compare(suchBegriff) == 0) {
+                return &datenIndex.at(i);
+            }
+            break;
+
+         }
+    }
+    return NULL;
+}
 
 
 void Verzeichnis::neueXMLerstellen(string neuerDateiname) {
@@ -78,3 +135,4 @@ void Verzeichnis::neueXMLerstellen(string neuerDateiname) {
     //neue Datei wird geschlossen
     XMLdatei.close();
 }
+
