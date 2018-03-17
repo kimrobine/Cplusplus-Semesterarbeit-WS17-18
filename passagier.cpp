@@ -20,7 +20,7 @@ vector<string> Passagier::neueXMLerstellen() {
     vector<string> zeile;
 
    /* string-Variablen aus Klasse "Passagier" werden eingesetzt */
-   zeile.push_back("<passagier reihe:sitz= "+Sitzplatz+">");
+   zeile.push_back("<passagier reihe:sitz=\""+Sitzplatz+"\">");
    zeile.push_back("<passagierName>");
    zeile.push_back("<nachname>" + Nachname + "</nachname>");
    zeile.push_back("<vorname>" + Vorname + "</vorname>");
@@ -52,7 +52,7 @@ string bringeAttributWert(string attributName, string &zeile) {
    puffer = 0;
    string attributWert;
 
-   while(puffer != 34){
+   while(puffer != 34){              //34 --> ASCII-Code für das Anführungszeichen
        puffer = zeile.at(zeiger);
        if(puffer != 34){
        attributWert += puffer;

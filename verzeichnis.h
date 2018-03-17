@@ -16,14 +16,10 @@ private:
 
 public:
    enum Kategorie{Sitzplatz=0, Nachname=1, Vorname=2, GepaeckStueckzahl=3, GepaeckGesamtgewicht=4, Nationalitaet=5};
-
    //Ausgabe-Funktion
-
    void auslesenXML();
    void auslesenTXT();
-
-   //Such-Funktion zur Verarbeitung des Konvertierens & des Suchens
-
+   Passagier * Suche(Kategorie kategorie, string suchBegriff);
    void neueXMLerstellen(string neuerDateiname);
 
 };
