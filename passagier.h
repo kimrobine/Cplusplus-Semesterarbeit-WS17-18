@@ -19,7 +19,7 @@ public:
     string Nationalitaet;
     Passagier (string PassagierDatenXML[10]);
     vector<string> neueXMLerstellen();
-    //Ausgeben-Funktion
+    void ausgeben();
 
 };
 
