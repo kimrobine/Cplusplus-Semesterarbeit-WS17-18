@@ -19,25 +19,35 @@ vector<string> Passagier::neueXMLerstellen() {
    // Vektor für Erstellung der Auflistung deklarieren
     vector<string> zeile;
 
-   /* string-Variablen aus Klasse "Passagier" werden eingesetzt */
-   zeile.push_back("<passagier reihe:sitz=\""+Sitzplatz+"\">");
-   zeile.push_back("<passagierName>");
-   zeile.push_back("<nachname>" + Nachname + "</nachname>");
-   zeile.push_back("<vorname>" + Vorname + "</vorname>");
-   zeile.push_back("</passagierName>");
-   zeile.push_back("<passagierGepaeck>");
-   zeile.push_back("<stueckzahl>" + GepaeckStueckzahl + "</stueckzahl>");
-   zeile.push_back("<gesamtgewicht>" + GepaeckGesamtgewicht + "</gesamtgewicht>");
-   zeile.push_back("</passagierGepaeck>");
-   zeile.push_back("<nationalitaet>" + Nationalitaet + "</nationalitaet>");
-   zeile.push_back("</passagier>");
+   /* string-Variablen aus Klasse "Passagier" werden nach und nach eingesetzt, um Verzeichnis
+      zu erweitern; inklusive auch der leeren bzw. schließenden Tags */
+   zeile.push_back(" <passagier reihe:sitz=\"" + Sitzplatz + "\">");
+   zeile.push_back("  <passagierName>");
+   zeile.push_back("   <nachname>" + Nachname + "</nachname>");
+   zeile.push_back("   <vorname>" + Vorname + "</vorname>");
+   zeile.push_back("  </passagierName>");
+   zeile.push_back("  <passagierGepaeck>");
+   zeile.push_back("   <stueckzahl>" + GepaeckStueckzahl + "</stueckzahl>");
+   zeile.push_back("   <gesamtgewicht>" + GepaeckGesamtgewicht + "</gesamtgewicht>");
+   zeile.push_back("  </passagierGepaeck>");
+   zeile.push_back("  <nationalitaet>" + Nationalitaet + "</nationalitaet>");
+   zeile.push_back(" </passagier>");
 
    // Anschließend wird der so zusammengesetzte Datenblock eines Passagiers (als string) zurückgegben
    return zeile;
 }
 
 
-//Ausgeben-Funktion für Suchergebnisse
+/* Funktion für die Ausgabe der Passagierinformationen, wenn Such-Anfrage des Users erfolgreich war*/
+void Passagier::ausgeben(){
+   cout << "Übereinstimmung für folgende(n) Reisende(n) gefunden: " << endl << endl;
+   cout << "Sitzplatz: " << Sitzplatz << endl;
+   cout << "Nachname: " << Nachname << endl;
+   cout << "Vorname: " << Vorname << endl;
+   cout << "Anzahl der aufgegebenen Gepäckstücke: " << GepaeckStueckzahl << endl;
+   cout << "Gesamtgewicht der aufgegebenen Gepäckstücke: " << GepaeckGesamtgewicht << endl;
+   cout << "Nationalität: " << Nationalitaet << endl;
+}
 
 
 string bringeAttributWert(string attributName, string &zeile) {

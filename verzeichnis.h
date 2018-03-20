@@ -16,7 +16,7 @@ private:
 
 public:
    enum Kategorie{Sitzplatz=0, Nachname=1, Vorname=2, GepaeckStueckzahl=3, GepaeckGesamtgewicht=4, Nationalitaet=5};
-   //Ausgabe-Funktion
+   void Ausgabe();
    void auslesenXML();
    void auslesenTXT();
    Passagier * Suche(Kategorie kategorie, string suchBegriff);

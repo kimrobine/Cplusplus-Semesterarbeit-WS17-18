@@ -5,8 +5,6 @@
 #include <vector>
 using namespace std;
 
-//Ausgabe-Funktion
-
 
 /* Funktion zum Auslesen der Ausgangs-XML-Datei */
 void Verzeichnis::auslesenXML(){
@@ -62,6 +60,7 @@ void Verzeichnis::auslesenTXT() {
                 }
     }
 }
+
 
 
 /* Funktion, um Datenbasis kategoriespezifisch nach Passagierinformationen zu durchsuchen */
@@ -135,4 +134,16 @@ void Verzeichnis::neueXMLerstellen(string neuerDateiname) {
     //neue Datei wird geschlossen
     XMLdatei.close();
 }
+
+
+
+/* Funktion zum Ausgeben der Ergebnisse der Suche();
+ * For-Loop, der schrittweise die Inhalte des "datenIndex" an die ausgeben();-Funktion weitergibt */
+void Verzeichnis::Ausgabe(){
+    for(auto i = 0u;  i < datenIndex.size(); i++) {
+          Passagier uebergangsPerson = datenIndex.at(i);
+          uebergangsPerson.ausgeben();
+        }
+}
+
 
