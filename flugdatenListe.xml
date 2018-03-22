@@ -31,8 +31,8 @@
  </passagier>
  <passagier reihe:sitz="54C">
   <passagierName>
-   <nachname>Todd</nachname>
-   <vorname>Sweeny</vorname>
+   <nachname>Boe</nachname>
+   <vorname>Johann</vorname>
   </passagierName>
   <passagierGepaeck>
    <stueckzahl>3</stueckzahl>
@@ -71,8 +71,8 @@
  </passagier>
  <passagier reihe:sitz="99A">
   <passagierName>
-   <nachname>Wolf</nachname>
-   <vorname>Herbert</vorname>
+   <nachname>Chung-hee</nachname>
+   <vorname>Lee</vorname>
   </passagierName>
   <passagierGepaeck>
    <stueckzahl>3</stueckzahl>
@@ -121,8 +121,8 @@
   </passagier>
  <passagier reihe:sitz="27A">
   <passagierName>
-   <nachname>Raabe</nachname>
-   <vorname>Annelise</vorname>
+   <nachname>Haalahti</nachname>
+   <vorname>Venla</vorname>
   </passagierName>
    <passagierGepaeck>
    <stueckzahl>1</stueckzahl>
@@ -237,6 +237,16 @@
   <passagierGepaeck>
    <stueckzahl>1</stueckzahl>
    <gesamtgewicht>26</gesamtgewicht>
+  </passagierGepaeck>
+ </passagier>
+ <passagier reihe:sitz="16A">
+  <passagierName>
+   <nachname>Martinelli</nachname>
+   <vorname>Francesca</vorname>
+  </passagierName>
+  <passagierGepaeck>
+   <stueckzahl>4</stueckzahl>
+   <gesamtgewicht>66</gesamtgewicht>
   </passagierGepaeck>
  </passagier>
 </flugdaten>

@@ -1,0 +1,6 @@
+<!ELEMENT flugdaten (passagier+)>
+	<!ELEMENT passagier (passagierName, passagierGepaeck)>
+	<!ATTLIST passagier 
+	reihe:sitz CDATA #REQUIRED>
+		<!ELEMENT passagierName (nachname, vorname)>
+		<!ELEMENT passagierGepaeck (stueckzahl, gesamtgewicht)>
