@@ -15,7 +15,6 @@ DISTFILES += \
     flugdatenListe.xml \
     zolldatenListe.txt
 
-
 data.path = $$OUT_PWD/
 
 data.files += $$PWD/*.dat
