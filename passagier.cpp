@@ -9,7 +9,7 @@ string bringeAttributWert (string attributName, string& zeile);
 string bringeTagWert (string tagName, string& zeile);
 
 /* Definition der Funktionen, um auf den jeweiligen AttributWert bzw. TagWert aus der XML zugreifen zu können:
- * Es werden die Werte aus den Anführungszeichen (" ") und den spitzen Klammern (<>) geparsed und anschließend
+ * Es werden die Werte aus den Anführungszeichen (" ") und den spitzen Klammern (< >) geparsed und anschließend
  * im vorgesehenen string gespeichert und zurückgegeben, damit sie zu einem späteren Zeitpunkt in die Datei
  * eingefügt werden können */
 string bringeAttributWert(string attributName, string &zeile) {
@@ -73,7 +73,7 @@ Passagier::Passagier (string *PassagierDatenXML) {
 
 /* Funktion, um die Daten zu kombinieren und in einer neuen XML-Datei zu speichern.
  * Die Passagierdaten sollen jedes Mal um eine Zeile erweitert werden, um das Verzeichnis
- * so zu schrittweise zu vervollständigen, bis die gesamte Datenmenge bearbeitet wurde.
+ * so schrittweise zu vervollständigen, bis die gesamte Datenmenge bearbeitet wurde.
  * Dies wird ermöglicht, indem der Vektor zeile mit dem Befehl ".push_back" kombiniert wird */
 vector<string> Passagier::neueXMLerstellen() {
    /* Vektor für Erstellung der Auflistung */
